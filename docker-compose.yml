@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  balancoempresarialfront:
+    image: hugopaul/geral
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - "82:80"
+    tty: true
+    expose:
+      - "82" 
+    stdin_open: true
