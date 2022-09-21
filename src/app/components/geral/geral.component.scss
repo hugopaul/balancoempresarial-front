@@ -1,0 +1,157 @@
+.app-geral {
+    border-radius: 0px 0px 35px 0px;
+    height: 730px;
+    width: 1100px;
+    background: #e6f4f4;
+    position: absolute;
+    bottom: 0px;
+
+
+}
+
+.geral-header {
+    width: 100;
+}
+
+.geral-nome {
+    position: absolute;
+    right: 50px;
+
+    b {
+        color: #1dbcda;
+    }
+
+    h1 {
+        line-height: 30px;
+    }
+
+    h2 {
+        line-height: 30px;
+    }
+}
+
+.date-picker {
+    background: #394053;
+    border-radius: 6px;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    height: 20px;
+    width: 150px;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 13px;
+    border-style: nome;
+
+}
+
+.geral-conteudo {
+    position: absolute;
+    float: left;
+    width: 1100px;
+    height: 630px;
+    
+    color: black;
+    bottom: 1px;
+    border-radius: 0px 0px 35px 0px;
+
+    p {
+        padding: 5px;
+        padding-left: 15px!important;
+    }
+
+}
+
+.geral-balancete {
+    background: white;
+    margin: 10px;
+    border-radius: 35px 35px 35px 35px;
+    display: inline-block;
+    position: relative;
+    float: left;
+
+    width: 260px;
+    height: 600px;
+
+    .balancete-text{
+        font-size: 10px;
+        line-height: 0px!important;
+        padding: 2px;
+
+        
+        
+    }
+    .border-botton{
+        padding-bottom: 5px;
+        border-bottom: 2px solid #000;
+    }
+    .ml-4{
+        margin-left: 4px;
+    }
+
+    .ml-8 {
+        margin-left: 8px;
+    }
+    
+}
+
+.geral-dre-indicadores {
+    border-radius: 35px 35px 35px 35px;
+    display: inline-block;
+
+}
+
+.geral-dre {
+    margin-top: 10px;
+    background: white;
+    margin-left: 10px;
+
+    border-radius: 35px 35px 35px 35px;
+    width: 265px;
+    height: 295px;
+
+    .dre-text{
+        font-size: 10px;
+        line-height: 0px!important;
+        padding: 2px;
+
+        
+        
+    }
+    .border-botton{
+        padding-bottom: 5px;
+        border-bottom: 2px solid #000;
+    }
+    .ml-4{
+        margin-left: 4px;
+    }
+
+    .ml-8 {
+        margin-left: 8px;
+    }
+
+}
+
+
+.geral-indicadores {
+    margin-top: 10px;
+    margin-left: 10px;
+    background: white;
+    border-radius: 35px 35px 35px 35px;
+    width: 265px;
+    height: 295px;
+
+}
+
+.geral-relatorio {
+    background: white;
+    margin: 10px;
+
+    border-radius: 35px 35px 35px 35px;
+    display: inline-block;
+    width: 520px;
+    height: 600px;
+    float: right;
+
+    
+}

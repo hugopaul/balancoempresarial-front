@@ -1,0 +1,41 @@
+.teste {
+
+    border-radius: 35px 0px 0px 35px;
+    position: left;
+    height: 800px;
+    width: 100px;
+    //background: #0ab4e7;
+    z-index: 1;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #0cda9a), color-stop(100, #00c5e7));
+    
+
+}
+
+.menu-hover {
+    height: 70px ;
+    background: #0ab4e7;
+    border-radius: 35px 0px 0px 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    img{ 
+        width: 50px;
+        height: 50px;
+        opacity : 0.8;
+    }
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{ 
+        width: 50px;
+        height: 50px;
+        padding-top: 50%;
+        opacity : 0.5;
+    }
+}
